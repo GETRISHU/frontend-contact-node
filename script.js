@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('https://your-backend-url.com/api/send', {
+            const response = await fetch('https://backend-nodejs-form.onrender.com/api/send', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
